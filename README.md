@@ -1,5 +1,9 @@
 # Google-Nest-Cam-Bug-Disclosures
 
+Reported to Google: October 26, 2016<br />
+Public Disclosure: March 17, 2017<br />
+Status: Fixed (unvalidated)<br />
+Fixed Build: TBD<br />
 
 <h3>Buffer Overflow via SSID parameter</h3>
 
