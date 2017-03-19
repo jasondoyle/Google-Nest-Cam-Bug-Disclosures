@@ -1,9 +1,9 @@
 # Google-Nest-Cam-Bug-Disclosures
 
-Affected: Dropcam cameras, Nest Cam Indoor/Outdoor models<br />
+Affected: Dropcam, Dropcam Pro, Nest Cam Indoor/Outdoor models<br />
+Version: 5.2.1<br />
 Reported to Google: October 26, 2016<br />
 Public Disclosure: March 17, 2017<br />
-Status: Fixed (unvalidated)<br />
 Fixed Build: TBD<br />
 
 <h3>Bluetooth (BLE) based Buffer Overflow via SSID parameter</h3>
