@@ -23,7 +23,7 @@ It's possible to trigger a buffer overflow condition when setting the SSID param
 `[18:B4:30:5D:00:B8][LE]>`<br />
 `(gatttool:20352): GLib-WARNING **: Invalid file descriptor.`<br />
 
-3. Details
+3. Details<br />
 The payload attempts to set an SSID with a length of 1 byte and sends 16.<br />
 SequenceNum=3a + Type=0312 + Length=01 + Value=AA*16<br />
 
