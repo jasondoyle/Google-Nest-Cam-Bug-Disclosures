@@ -55,7 +55,7 @@ SequenceNum=3a + Type=0312 + Length=0b + ssidVal=506574536d6172742d356e + type=1
 Crash and reboot back to operational state
 
 
-<h3>Bluetooth (BLE) based Wifi Reassociation</h3>
+<h3>Bluetooth (BLE) based Wifi Disassociation</h3>
 
 1. Summary<br />
 It's possible to temporarily disconnect the camera from Wifi by supplying it a new SSID to connect to. Local storage of video footage is not supported by these cameras so surveillance is temporarily disabled. The attacker must be in bluetooth range at any time during the cameras powered on state. Bluetooth is never disabled even after initial setup.
