@@ -2,9 +2,15 @@
 
 Affected: Dropcam, Dropcam Pro, Nest Cam Indoor/Outdoor models<br />
 Version: 5.2.1<br />
-Reported to Google: October 26, 2016<br />
-Public Disclosure: March 17, 2017<br />
 Fixed Build: TBD<br />
+
+Disclosure Timeline:<br />
+October 26, 2016: Reported security bug per Google's Vulnerability Reward Program guidelines<br />
+October 27, 2016: Google Security Team acknowledged that the report was received and it was being investigated<br />
+November 1, 2016: Google Security Team validated the reported vulnerabilities and filed a bug<br />
+November 15, 2016: Google's VRP panel issued a $100 reward under "Non-integrated acquisitions"<br />
+March 17, 2017: Public disclosure<br />
+
 
 <h3>Bluetooth (BLE) based Buffer Overflow via SSID parameter</h3>
 
