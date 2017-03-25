@@ -1,7 +1,7 @@
 # Google-Nest-Cam-Bug-Disclosures
 
 Affected: Dropcam, Dropcam Pro, Nest Cam Indoor/Outdoor models<br />
-Version: 5.2.1<br />
+Software Build: 174-600052<br />
 Fixed Build: TBD<br />
 
 Disclosure Timeline:<br />
