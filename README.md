@@ -11,6 +11,7 @@ November 1, 2016: Google Security Team validated the reported vulnerabilities an
 November 15, 2016: Google's VRP panel issued a $100 reward under "Non-integrated acquisitions"<br />
 March 17, 2017: Public disclosure<br />
 
+PoC iOS app by Troy Stribling :: <a href="https://github.com/troystribling/NestPWN">NestPWN</a>
 
 <h3>Bluetooth (BLE) based Buffer Overflow via SSID parameter</h3>
 
