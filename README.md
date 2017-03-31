@@ -2,7 +2,7 @@
 
 Affected: Dropcam Pro, Nest Cam Indoor/Outdoor models<br />
 Latest Build Tested: 205-600052<br />
-Fixed Build: TBD<br />
+Fixed Build: 205-600055<br />
 
 Disclosure Timeline:<br />
 October 26, 2016: Reported security bug per Google's Vulnerability Reward Program guidelines<br />
