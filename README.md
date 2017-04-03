@@ -85,7 +85,7 @@ It's possible to temporarily disconnect the camera from Wifi by supplying it a n
 `[18:B4:30:5D:00:B8][LE]> `<br />
 
 3. Details<br />
-The payload attempts to change Nest Cam's associated SSID causing temporary disassociation from the current Wifi SSID. Without knowing the encryption key, a valid password can not be set.
+The payload attempts to change Nest Cam's associated SSID causing temporary disassociation from the current Wifi SSID.
 seqNum + 0312(type) 0b(len) + SSID + 1a(type) 20(len) + encPass
 seqNum + encPass(cont)
 seqNum + encPass(cont) + 2002280032(constant) + 10(len) + authTag
