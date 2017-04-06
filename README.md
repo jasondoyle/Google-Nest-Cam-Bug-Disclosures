@@ -1,8 +1,11 @@
 # Google-Nest-Cam-Bug-Disclosures
 
 Affected: Dropcam Pro, Nest Cam Indoor/Outdoor models<br />
-Latest Build Tested: 205-600052<br />
-Fixed Build: 205-600055<br />
+Latest Build Affected: 205-600052<br />
+Partial Fixed Build: 205-600055<br />
+
+<u>UPDATE</u>
+The latest fw version 205-600055 does not fix the WiFi dissassociation vulnerability in the Dropcam Pro. If the supplied WiFi network does not exist, reassociation time was improved and now connects back within approximately 10 seconds. However, a valid WiFi network can still be provided to take the dropcam offline permanently. 
 
 Disclosure Timeline:<br />
 October 26, 2016: Reported security bug per Google's Vulnerability Reward Program guidelines<br />
@@ -14,6 +17,7 @@ March 17, 2017: Public disclosure<br />
 PoC iOS app by Troy Stribling :: <a href="https://github.com/troystribling/NestPWN">NestPWN</a>
 
 <h3>Bluetooth (BLE) based Buffer Overflow via SSID parameter</h3>
+<i>Fixed in all models</i>
 
 1. Summary<br />
 It's possible to trigger a buffer overflow condition when setting the SSID parameter on the camera. The attacker must be in bluetooth range at any time during the cameras powered on state. Bluetooth is never disabled even after initial setup.
@@ -38,6 +42,7 @@ SequenceNum=3a + Type=0312 + Length=01 + Value=AA*16<br />
 Crash and reboot back to operational state
 
 <h3>Bluetooth (BLE) based Buffer Overflow via Encrypted Password parameter</h3>
+<i>Fixed in all models</i>
 
 1. Summary<br />
 It's possible to trigger a buffer overflow condition when setting the encrypted password parameter on the camera. The attacker must be in bluetooth range at any time during the cameras powered on state. Bluetooth is never disabled even after initial setup.
@@ -63,9 +68,10 @@ Crash and reboot back to operational state
 
 
 <h3>Bluetooth (BLE) based Wifi Disassociation</h3>
+<i>Not Fixed in Dropcam Pro</i><br />
 
 1. Summary<br />
-It's possible to temporarily disconnect the camera from Wifi by supplying it a new SSID to connect to. Local storage of video footage is not supported by these cameras so surveillance is temporarily disabled. The attacker must be in bluetooth range at any time during the cameras powered on state. Bluetooth is never disabled even after initial setup.
+It's possible to disconnect the camera from Wifi by supplying it a new SSID to connect to. Local storage of video footage is not supported by these cameras so surveillance is temporarily disabled. The attacker must be in bluetooth range at any time during the cameras powered on state. Bluetooth is never disabled even after initial setup.
 
 2. Proof of Concept<br />
 `anon@ubuntu:~/nest$ gatttool -b 18:B4:30:5D:00:B8 -t random -I`<br />
@@ -93,4 +99,4 @@ seqNum + authTag(cont) + 3a(UnknownType) 04(len) + DEADBEEF
 seqNum(execute)
 
 4. Result<br />
-Camera dissociates from current wifi network to attempt association with newly set SSID. The camera goes offline for approximately 60-90 seconds before returning to the original Wifi network and resuming normal operation. 
+Camera dissociates from current wifi network to attempt association with newly set SSID. If the WiFi network does not exist, the camera will go offline for approximately 60-90 seconds before returning to the original Wifi network and resuming normal operation. If the network does exist, it will check for Internet connectivity and remain on the new network.<br />
