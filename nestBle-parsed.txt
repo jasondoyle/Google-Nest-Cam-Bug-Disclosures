@@ -1,0 +1,172 @@
+anon@ubuntu:~/nest$ python nestBle.py 
+[+] attempting to load btsnoop_hci.pcap
+[+] found valid header
+[+] loaded 1545 packets
+[+] finished loading savefile.
+little-endian capture file version 2.4
+microsecond time resolution
+snapshot length: 262144
+linklayer type: None
+number of packets: 1545
+
+[Pkt 604] Write Request: Handle 0xfffd [00200a9c020a8001254cf0114adf8c18794f1d74] . ......%L..J...yO.t
+[Pkt 605] Write Request: Handle 0xfffd [01983c6f870df9b9161985e698734a42e34cd747] ..<o.........sJB.L.G
+[Pkt 607] Write Request: Handle 0xfffd [02c3a3d20f00de72bc30242133a1927f49bf0cf4] .......r.0$!3...I...
+[Pkt 608] Write Request: Handle 0xfffd [03cef3db3e3ee3f703231be03328e99065c1a7a7] ....>>...#..3(..e...
+[Pkt 610] Write Request: Handle 0xfffd [04feed98d8a7b8d9285b3e4cbed40e5426b6ccf3] ........([>L...T&...
+[Pkt 611] Write Request: Handle 0xfffd [0533e42d15420ff18ad655e267d00aff313b7498] .3.-.B....U.g...1;t.
+[Pkt 613] Write Request: Handle 0xfffd [0667dd4cf34364004348ebaa801de346945ff354] .g.L.Cd.CH.....F._.T
+[Pkt 614] Write Request: Handle 0xfffd [0784a11280013f99cc144f06cdfeee2579855aa8] ......?...O....%y.Z.
+[Pkt 616] Write Request: Handle 0xfffd [08263c65bfff59ba1e4e8298cc2a2815f3c9f933] .&<e..Y..N...*(....3
+[Pkt 617] Write Request: Handle 0xfffd [0948f2c0d6d782512ef53de91810aebd5a0bd02f] .H.....Q..=.....Z../
+[Pkt 619] Write Request: Handle 0xfffd [0a2e376ff0db4ff722a5bd048843323640b0617d] ..7o..O."....C26@.a}
+[Pkt 621] Write Request: Handle 0xfffd [0bc33bb1e35f05dbed6fe941be04dc7e4dadbb2d] ..;.._...o.A...~M..-
+[Pkt 622] Write Request: Handle 0xfffd [0c19a05223bd73328ad170c75bab9612342bc526] ...R#.s2..p.[...4+.&
+[Pkt 624] Write Request: Handle 0xfffd [0d6d49fe4f724181654c79bd45eb917033425a3f] .mI.OrA.eLy.E..p3BZ?
+[Pkt 625] Write Request: Handle 0xfffd [0e1a1446f8277596a83743ee88405da99235dd3c] ...F.'u..7C..@]..5.<
+[Pkt 627] Write Request: Handle 0xfffd [0f2738e7129d020a810100ace80c85d1991677ea] .'8...............w.
+[Pkt 628] Write Request: Handle 0xfffd [104dce0aef5d097fd1a416429b5146cbb73d2cdf] .M...].....B.QF..=,.
+[Pkt 630] Write Request: Handle 0xfffd [117596ba610acca3c6965092b94240c39b9847a0] .u..a.....P..B@...G.
+[Pkt 631] Write Request: Handle 0xfffd [12342f3537f9cc51ae511590793e5965cae6ab36] .4/57..Q.Q..y>Ye...6
+[Pkt 633] Write Request: Handle 0xfffd [1383179178f0f1cf3c9cd06ff1817a420660a4d1] ....x...<..o..zB.`..
+[Pkt 634] Write Request: Handle 0xfffd [14ec6c6ad1fc819b2afbd7edda5b50edaf7a7f39] ..lj....*....[P..z.9
+[Pkt 636] Write Request: Handle 0xfffd [159456d5fa51d8421bd65c2903f3fbbf3533b56f] ..V..Q.B..\)....53.o
+[Pkt 637] Write Request: Handle 0xfffd [16d62ea0e8b91280017a83ae7ff4ee55e8ebc981] .........z.....U....
+[Pkt 639] Write Request: Handle 0xfffd [17b0d120ea7e4b49a126fb443aecaf53e754edaa] ... .~KI.&.D:..S.T..
+[Pkt 640] Write Request: Handle 0xfffd [1861c75e1e4594fee7e666a06c914041835a3adf] .a.^.E....f.l.@A.Z:.
+[Pkt 642] Write Request: Handle 0xfffd [1928709e156ba86b282b274906170ac7f6a5fa7e] .(p..k.k(+'I.......~
+[Pkt 643] Write Request: Handle 0xfffd [1ad2a26ad07acac41e765c08b07f1dda8ce8f492] ...j.z...v\.........
+[Pkt 645] Write Request: Handle 0xfffd [1bff1e8784dfae61fcaae15843f4fa7635ac1849] .......a...XC..v5..I
+[Pkt 647] Write Request: Handle 0xfffd [1c7d263381e4fc7a6ada43414771564437a6a04b] .}&3...zj.CAGqVD7..K
+[Pkt 648] Write Request: Handle 0xfffd [1d0d2ef31a145739aeba496ffd99568475cac9c0] ......W9..Io..V.u...
+[Pkt 650] Write Request: Handle 0xfffd [1ea7a9c20e4759                          ] .....GY
+[Pkt 651] Write Request: Handle 0xfffd [1f                                      ] .
+[Pkt 655] Read Response: Handle 0xffff [3c300a9c020a8001979e67d163fe82a11c96bdf0] <0........g.c.......
+[Pkt 657] Read Response: Handle 0xffff [3d76d9d4a41d1c0b6ee50b35a6cc4452dcd0ba58] =v......n..5..DR...X
+[Pkt 659] Read Response: Handle 0xffff [3e9ae017cb4d07eee71bfa1e28014c18125113be] >....M......(.L..Q..
+[Pkt 660] Read Response: Handle 0xffff [3f30e7ddc241c80c2c94271a5c29e155ba18efad] ?0...A..,.'.\).U....
+[Pkt 662] Read Response: Handle 0xffff [402780b24be47adc9b158765d9a87928c8356dc3] @'..K.z....e..y(.5m.
+[Pkt 663] Read Response: Handle 0xffff [418c981559e82293d76d719ec2130cf65f8aed07] A...Y."..mq....._...
+[Pkt 665] Read Response: Handle 0xffff [420c9aa73c0122d8452ee7d7cdadb1aac313cdc0] B...<.".E...........
+[Pkt 666] Read Response: Handle 0xffff [43aadb12800129f78a6f9e7333d793dd9255279b] C.....)..o.s3....U'.
+[Pkt 668] Read Response: Handle 0xffff [44a2d6f3f86fb9d30310b762cb79abf5e48000b5] D....o.....b.y......
+[Pkt 670] Read Response: Handle 0xffff [45d2d4a4ac9aa9dc36035f720f9865f131670b1f] E.......6._r..e.1g..
+[Pkt 671] Read Response: Handle 0xffff [4685b6705044704ef4ac2c24f02b1aef1e5bf6cc] F..pPDpN..,$.+...[..
+[Pkt 673] Read Response: Handle 0xffff [4730731e94f1d9f9e0084f982a8a54a744d28554] G0s.......O.*.T.D..T
+[Pkt 674] Read Response: Handle 0xffff [4881745071846a5658cd0c1cced7046873fd1661] H.tPq.jVX......hs..a
+[Pkt 676] Read Response: Handle 0xffff [4914e65989e35833bf7d0733dcbdf64a7ca5d97a] I..Y..X3.}.3...J|..z
+[Pkt 677] Read Response: Handle 0xffff [4a1a1422391f3981b7600ae41afc0ade55744805] J.."9.9..`......UtH.
+[Pkt 679] Read Response: Handle 0xffff [4b6196e0129c020a800141f093472812e17cbac2] Ka........A..G(..|..
+[Pkt 680] Read Response: Handle 0xffff [4cf9c56d27325eec3194b5f1182a75f0d13293b3] L..m'2^.1....*u..2..
+[Pkt 682] Read Response: Handle 0xffff [4da820f701ff2c66700125c189e10ff4f6c50cf7] M. ...,fp.%.........
+[Pkt 683] Read Response: Handle 0xffff [4e06805065ddd8e4ea188aeebc5ce8e0c6a378aa] N..Pe........\....x.
+[Pkt 685] Read Response: Handle 0xffff [4f42a78003458ff7eb8fc80b3c00eaa28ef123aa] OB...E......<.....#.
+[Pkt 686] Read Response: Handle 0xffff [501630e5a8b2a80e25c9f2fb2c4c7193d50526a5] P.0.....%...,Lq...&.
+[Pkt 688] Read Response: Handle 0xffff [51e7288177ae5592000a32500a059292d7fbcc9c] Q.(.w.U...2P........
+[Pkt 689] Read Response: Handle 0xffff [52013eadca1280014a5e1c52773820ac8b59bd6a] R.>.....J^.Rw8 ..Y.j
+[Pkt 691] Read Response: Handle 0xffff [53ec26e5bc8507230ac1f3c887873cd2e232b42e] S.&....#......<..2..
+[Pkt 692] Read Response: Handle 0xffff [544a668c158b627eb22874203880210c6cdeb853] TJf...b~.(t 8.!.l..S
+[Pkt 694] Read Response: Handle 0xffff [55b68a0dec683ad4276319fd70e401531ea2869d] U....h:.'c..p..S....
+[Pkt 695] Read Response: Handle 0xffff [565e47f7228989dfd8d0d7acd4cfa016c93b7c04] V^G."............;|.
+[Pkt 697] Read Response: Handle 0xffff [57d238a673cb8eab7eb52de6244bda88fbc6af83] W.8.s...~.-.$K......
+[Pkt 698] Read Response: Handle 0xffff [58e22387108db116ef91bb03d80ccc893c71eab2] X.#.............<q..
+[Pkt 700] Read Response: Handle 0xffff [59fd281a1426ce20de49ad1717edfb3705225a9f] Y.(..&. .I.....7."Z.
+[Pkt 701] Read Response: Handle 0xffff [5a7af5d68af91a9c020a8001fbe62cb0a96d3800] Zz............,..m8.
+[Pkt 703] Read Response: Handle 0xffff [5bc8b5f547c56e3afd57e878d8544fac59745f5d] [...G.n:.W.x.TO.Yt_]
+[Pkt 704] Read Response: Handle 0xffff [5c8578bedb012f26473b74aa2ab35fb290fcdf6e] \.x.../&G;t.*._....n
+[Pkt 706] Read Response: Handle 0xffff [5ddf1cf6329ea583d76514c67dc2cc5ad7ba2087] ]...2....e..}..Z.. .
+[Pkt 708] Read Response: Handle 0xffff [5ef4a2bc3aae4df4c6bedf6a3c2a24901f9ba714] ^...:.M....j<*$.....
+[Pkt 709] Read Response: Handle 0xffff [5f4bab003b9f038cde6329405e8082f37df01f76] _K..;....c)@^...}..v
+[Pkt 711] Read Response: Handle 0xffff [607ef4cafc957330594e900a8b90cd80687c72ed] `~....s0YN......h|r.
+[Pkt 712] Read Response: Handle 0xffff [61d6174e8416451280014e84cc4875aa74825bc6] a..N..E...N..Hu.t.[.
+[Pkt 714] Read Response: Handle 0xffff [62871ab1aadbdb6e01f71beb04f2d945bba68408] b......n.......E....
+[Pkt 715] Read Response: Handle 0xffff [6340937b1ef2d3a80a37dde32e27217ce279990e] c@.{.....7...'!|.y..
+[Pkt 717] Read Response: Handle 0xffff [64e59a9d8602bf1cc19c6094219f8422fd08ef8f] d.........`.!.."....
+[Pkt 718] Read Response: Handle 0xffff [65d3b54b72c7222cef861b5999f7bc1baf984aba] e..Kr.",...Y......J.
+[Pkt 720] Read Response: Handle 0xffff [665948e31b2263d0c66a3aa86cb048337c8ee201] fYH.."c..j:.l.H3|...
+[Pkt 721] Read Response: Handle 0xffff [672d367d0b4baede27bd98898d28225b5e142714] g-6}.K..'....("[^.'.
+[Pkt 723] Read Response: Handle 0xffff [680daa3ccd1a1465ce79243003d0d20365f4c97b] h..<...e.y$0....e..{
+[Pkt 724] Read Response: Handle 0xffff [69a00abaa4befb55                        ] i......U
+[Pkt 726] Write Request: Handle 0xfffd [20010a9d020a80015d07b4e2b799a1017f7b5b20]  .......]........{[ 
+[Pkt 727] Write Request: Handle 0xfffd [21ad99c61ec945ec57e156b756067e216b6876b5] !.....E.W.V.V.~!khv.
+[Pkt 729] Write Request: Handle 0xfffd [2215e4e60f78e10d4b0634f6a6b5b5678d388550] "....x..K.4....g.8.P
+[Pkt 730] Write Request: Handle 0xfffd [237455983b196ce62a7b5c32b036a889227a943c] #tU.;.l.*{\2.6.."z.<
+[Pkt 732] Write Request: Handle 0xfffd [24ef74f25b33821c1ad0bc61fc636731c965dc8e] $.t.[3.....a.cg1.e..
+[Pkt 734] Write Request: Handle 0xfffd [259edb7f59261f1dd7457b263a72ee5f589d43eb] %...Y&...E{&:r._X.C.
+[Pkt 735] Write Request: Handle 0xfffd [2658c4d3fb12b637737f1122801726a7465b2774] &X.....7s.."..&.F['t
+[Pkt 737] Write Request: Handle 0xfffd [27b72612810100d23d26007c8e456af5d482522e] '.&.....=&.|.Ej...R.
+[Pkt 738] Write Request: Handle 0xfffd [2893a6718317bff3e51dc2850015a3ad3521ae45] (..q............5!.E
+[Pkt 740] Write Request: Handle 0xfffd [29dd6fb2a7aa2e575f7e80a1dc3a51be2082faa3] ).o....W_~...:Q. ...
+[Pkt 741] Write Request: Handle 0xfffd [2af3383ba05c90f5191337864cb8515da18c06e7] *.8;.\....7.L.Q]....
+[Pkt 743] Write Request: Handle 0xfffd [2bdc404e9452f6a152721747ce1000589d2e686a] +.@N.R..Rr.G...X..hj
+[Pkt 744] Write Request: Handle 0xfffd [2c2c36c18731d8ff4708ef9a2a1e11cec00da101] ,,6..1..G...*.......
+[Pkt 746] Write Request: Handle 0xfffd [2d6178aca6bc594043bf28d6fc470c93f2a84663] -ax...Y@C.(..G....Fc
+[Pkt 747] Write Request: Handle 0xfffd [2ee81a141f9c2332b2fa6a33e9e7ad9c2dcd9a0e] ......#2..j3....-...
+[Pkt 749] Write Request: Handle 0xfffd [2f5065fe5712144ddd6f3bb895ad03ed04f16d31] /Pe.W..M.o;.......m1
+[Pkt 751] Write Request: Handle 0xfffd [30cecd93941c0478                        ] 0......x
+[Pkt 752] Write Request: Handle 0xfffd [31                                      ] 1
+[Pkt 755] Read Response: Handle 0xffff [6c401a01020a0cc9a0e46537e8ed2e58a9205212] l@........e7...X. R.
+[Pkt 757] Read Response: Handle 0xffff [6d20879535a2313f800ee5b3c970099a42d4bc8d] m ..5.1?.....p..B...
+[Pkt 759] Read Response: Handle 0xffff [6e8af6b85354d794a48eeaaa9ff2922214d164cc] n...ST........."..d.
+[Pkt 760] Read Response: Handle 0xffff [6fb1f1d91df4cc26a18822eb258f5f78dda5    ] o......&..".%._x..
+[Pkt 763] Write Request: Handle 0xfffd [32020a10ab2c715a1a292759325235d367e7b9a7] 2....,qZ.)'Y2R5.g...
+[Pkt 765] Write Request: Handle 0xfffd [33                                      ] 3
+[Pkt 767] Read Response: Handle 0xffff [75410a6e6273736964202f206672657175656e63] uA.nbssid / frequenc
+[Pkt 769] Read Response: Handle 0xffff [7679202f207369676e616c206c6576656c202f20] vy / signal level / 
+[Pkt 770] Read Response: Handle 0xffff [77666c616773202f20737369640a39633a33643a] wflags / ssid.9c:3d:
+[Pkt 771] Read Response: Handle 0xffff [7863663a39623a34633a30330932343132092d34] xcf:9b:4c:03.2412.-4
+[Pkt 773] Read Response: Handle 0xffff [7930095b575041322d50534b2d43434d505d5b57] y0.[WPA2-PSK-CCMP][W
+[Pkt 775] Read Response: Handle 0xffff [7a50535d5b4553535d094e4554474541523635  ] zPS][ESS].NETGEAR65
+[Pkt 809] Write Request: Handle 0xfffd [34020a10ab2c715a1a292759325235d367e7b9a7] 4....,qZ.)'Y2R5.g...
+[Pkt 810] Write Request: Handle 0xfffd [35                                      ] 5
+[Pkt 813] Read Response: Handle 0xffff [bcbf78daa5925d4f833014862f4df915bbd498ce] ..x...]O.0../M......
+[Pkt 814] Read Response: Handle 0xffff [bd52da42cf1d59704eb34964899a6517e5a30b91] .R.B..YpN.Id..e.....
+[Pkt 816] Read Response: Handle 0xffff [bee094f9b15fed5fb023e047d816e3925ed072ce] ....._._.#.G....^.r.
+[Pkt 817] Read Response: Handle 0xffff [bfd3b7ef7bac8fa3b8aaf2b477d6d3cfd9d34b56] ....{.......w.....KV
+[Pkt 819] Read Response: Handle 0xffff [c0266bf35de58b5215bd227bcd8acdaf422daacd] .&k.]..R.."{....B-..
+[Pkt 820] Read Response: Handle 0xffff [c1b1a9b464024e0a890619034b803888329b22cc] ....d.N.....K.8.2.".
+[Pkt 822] Read Response: Handle 0xffff [c2089add863ec56174850783713837db683e0ba2] .....>.at...q87.h>..
+[Pkt 823] Read Response: Handle 0xffff [c3688e26c17418f8378277da19e2aee07f6dc77c] .h.&.t..7.w......m.|
+[Pkt 825] Read Response: Handle 0xffff [c468690f1401e982106033f038e294128405ab09] .hi......`3.8.......
+[Pkt 827] Read Response: Handle 0xffff [c535607a350a4f5b4a03fd75d692a3a52ad5c3e3] .5`z5.O[J..u....*...
+[Pkt 828] Read Response: Handle 0xffff [c6325fa90e98999789cdcbbc03c1b63a185c332d] .2_............:.\3-
+[Pkt 830] Read Response: Handle 0xffff [c74180509014e20c8c91ca3320c74598f37f28bc] .A.P.......3 .E...(.
+[Pkt 831] Read Response: Handle 0xffff [c8b81e079810e963da67dfe8c401478189837bc4] .......c.g....G...{.
+[Pkt 833] Read Response: Handle 0xffff [c9e4e2da07a1b99510d01a52068a41a681c68d66] ...........R..A....f
+[Pkt 834] Read Response: Handle 0xffff [cad7d913f871ffc42c2b4d4067405cf024380cec] .....q..,+M@g@\.$8..
+[Pkt 836] Read Response: Handle 0xffff [cbaf5eb7e90dfc10ff30e8ee7c34194def2dd7dc] ..^......0..|4.M.-..
+[Pkt 837] Read Response: Handle 0xffff [cc698314101b8000219b19f528daedae14d1e5d8] .i......!...(.......
+[Pkt 839] Read Response: Handle 0xffff [cd226af774d565ef3a2ff3d5fa2dd779c734da9a] ."j.t.e.:/...-.y.4..
+[Pkt 840] Read Response: Handle 0xffff [ce46b614935d5320f7919ba4559bf43619a9b7c1] .F...]S ....U..6....
+[Pkt 842] Read Response: Handle 0xffff [cfc6866f3438c0554336e23bc59fd55f0b8a    ] ...o48.UC6.;..._..
+[Pkt 875] Write Request: Handle 0xfffd [36020a10ab2c715a1a292759325235d367e7b9a7] 6....,qZ.)'Y2R5.g...
+[Pkt 877] Write Request: Handle 0xfffd [37                                      ] 7
+[Pkt 879] Read Response: Handle 0xffff [11bf78daa592cd4edc301485b7759e62965495e9] ..x....N.0...u.b.T..
+[Pkt 881] Read Response: Handle 0xffff [128d633bf6d90d2885291a88c8486d8566e1fc18] ..c;...(.)...Hm.f...
+[Pkt 882] Read Response: Handle 0xffff [13451da5b4435b78bb3e5a3da3841f8541944a5e] .E...C[x.>Z=....A.J^
+[Pkt 884] Read Response: Handle 0xffff [14c4ceb99fafcf3dd19f37e57addd693f713ffa3] .......=..7.z.......
+[Pkt 885] Read Response: Handle 0xffff [15f9feb3e9aadbf0bd6e2f3bb79aac9a5fcd6af3] .........n/;...._.j.
+[Pkt 887] Read Response: Handle 0xffff [166be52ed79be3a08c6c85a446e5614bc80a9430] .k.......l..F.aK...0
+[Pkt 889] Read Response: Handle 0xffff [172163c1b84cd9c5a77c2a785e9cf0c3c379be0c] .!c..L...|*x^....y..
+[Pkt 890] Read Response: Handle 0xffff [18db62799115c5929d668ba36c7aaed5a85c3295] ..by.....f..lz...\2.
+[Pkt 892] Read Response: Handle 0xffff [196a15cae39794737514790347b029b4462c6114] .j.....su.y.G.).F,a.
+[Pkt 893] Read Response: Handle 0xffff [1a534210e35a6c095bc0e26496bf1b283df4d1d9] .SB..Zl.[..d...(=...
+[Pkt 895] Read Response: Handle 0xffff [1b402eae5ce7be7ebb6aafdd082cc3cbf4fdcb5e] .@..\..~.j...,.....^
+[Pkt 896] Read Response: Handle 0xffff [1c0f8eddd360452f066f999126908015281b0423] .....`E/.o..&...(..#
+[Pkt 898] Read Response: Handle 0xffff [1d9d09a0240da0d774787c36cf38919d72b12fef] ....$...tx|6.8..r./.
+[Pkt 899] Read Response: Handle 0xffff [1ed15582c441125386c25cd2f8bfd02aaa08dea3] ..U..A.S..\....*....
+[Pkt 901] Read Response: Handle 0xffff [1f9670128d8728fb9e53f3ccc0f7f6df8615d515] ..p...(..S..........
+[Pkt 902] Read Response: Handle 0xffff [207c034a612c1289f8ae76c85a36cdf903833e7f]  |.Ja,....v.Z6....>.
+[Pkt 904] Read Response: Handle 0xffff [21989dce165fa234dc19c36a9401a0a16d9f5123] !...._.4...j....m.Q#
+[Pkt 905] Read Response: Handle 0xffff [22d86e77ad2e3ece23723bd2157cd8ca6e7cdbb5] ".nw..>.#r;..|..n|..
+[Pkt 907] Read Response: Handle 0xffff [23d7b7bf5bdf8e4c130f4c1b8969570ac473e47e] #...[..L..L..iW..s.~
+[Pkt 908] Read Response: Handle 0xffff [24d26e98b47e425c9b0db60cfcd04302e57a7268] $.n..~B\......C..zrh
+[Pkt 910] Read Response: Handle 0xffff [257e2c6e2a0801432829286169f054fd5b180f8e] %~,n*..C()(ai.T.[...
+[Pkt 911] Read Response: Handle 0xffff [2679cc4557ff05e9ac2003                  ] &y.EW.... .
+[Pkt 913] Write Request: Handle 0xfffd [380312094e45544745415236351a10a00ee4be7c] 8...NETGEAR65......|
+[Pkt 914] Write Request: Handle 0xfffd [390c4d8e8d42c7ed3dfd98d8200228003210ab2c] 9.M..B..=... .(.2..,
+[Pkt 916] Write Request: Handle 0xfffd [3a715a1a292759325235d367e7b9a73a203a7b09] :qZ.)'Y2R5.g...: :{.
+[Pkt 917] Write Request: Handle 0xfffd [3b0183edabaac8f91481c02e501ec9ea653b9906] ;...........P...e;..
+[Pkt 919] Write Request: Handle 0xfffd [3cdaf8af1b2e5dcf02ae12                  ] <.....]....
+[Pkt 920] Write Request: Handle 0xfffd [3d                                      ] =
+[Pkt 951] Read Response: Handle 0xffff [59420800                                ] YB..
